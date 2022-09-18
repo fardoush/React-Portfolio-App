@@ -42,7 +42,24 @@
 
 :root{
 
-  
+  --pink:#e66767;
+  --pink2:#ea8685;
+  --black:#222;
+  --gray:#7f8c8d;
+  --grayCard:#ecf0f1;
+  --blueGreen:rgba(43, 203, 186,1);
+  --boxShadow:0px 19px 60px rgb(0 0 0 /8%);
+  --pinkCard:#rgba(250, 177, 160,0.5);
+  --smboxShadow:-79px 51px 60px rgba(0 0 0 0.05);
+
+
+
 }
 
+
+.App{
+  padding: 0.5rem 3.5rem;
+  overflow:hidden;
+  color: var(--black);
+}
 
