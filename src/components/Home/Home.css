@@ -30,3 +30,43 @@
 .home-btn{
     margin: 10px 0;
 }
+
+
+.social-icon{
+    margin:2rem 0;
+    display: flex;
+    gap:0rem;
+
+}
+
+.social-icon a{
+    /* transform: scale(0.5); */
+    font-size: 18px;
+    color:var(--pink);
+    padding: 8px 10px;
+    /* padding: 5px 8px; */
+    cursor: pointer;
+}
+
+.social-icon a:hover{
+    font-size: 18px;
+    background:var(--pink);
+    padding: 8px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+/* Banner/ banner-images  */
+
+.banner-images{
+    position: relative;
+    flex: 1;
+}
+.banner-images>*{
+    position: absolute;
+    content: " ";
+    z-index: 1;
+}
