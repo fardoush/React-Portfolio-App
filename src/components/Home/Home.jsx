@@ -2,6 +2,11 @@ import React from 'react';
 import './Home.css';
 import { FaFacebookF,FaInstagram,FaLinkedinIn,FaTwitter,FaGithub } from "react-icons/fa";
 import bannerImage from '../../images/banner1.png';
+import Shape1 from '../../images/shape1.png';
+import Shape2 from '../../images/shape2.png';
+
+import FloatingDiv from '../FloatingDiv/FloatingDiv';
+
 
 
 const Home = () => {
@@ -35,9 +40,12 @@ const Home = () => {
       </div>
       <div className="banner-images">
       <span className='shape1'></span>
-      <img src={bannerImage} alt="" />
-      <img src={bannerImage} alt="" />
-
+      {/* <img src={Shape1} alt="" />
+      <img src={Shape2} alt="" /> */}
+    <div className="banner-img">
+    <img src={bannerImage} alt="" />
+    </div>
+    {/* <FloatingDiv  tex1='Web' tex2='Developer'/> */}
       </div>
     </div>
   )

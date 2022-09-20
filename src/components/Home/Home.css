@@ -62,11 +62,59 @@
 /* Banner/ banner-images  */
 
 .banner-images{
+    width: 100%;
     position: relative;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .banner-images>*{
     position: absolute;
     content: " ";
     z-index: 1;
+   
 }
+.banner-images .shape1{
+    border-radius: 46% 54% 68% 32% / 37% 40% 60% 63%  ;
+/* border-radius:20% 11% 69% 69% / 69% 70% 100% 30%  ; */
+    background: var(--pink2);
+    width:450px;
+    height: 403px;
+}
+
+/* .banner-images .banner-img{
+    overflow-x: hidden;
+} */
+.banner-images .banner-img img{
+    position: relative;
+    object-fit: contain;
+}
+.banner-images .banner-img img{
+    border-radius: 46% 54% 68% 32% / 37% 40% 60% 63%  ;
+  position: relative;
+    transform: scale(1.2);          ;
+    top:-30px;
+   left:10%;
+  
+    /* position: absolute;
+    content:" ";
+    top:-10px;
+    left: 20px; */
+}
+/* .banner-images> :nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top:-9%;
+}
+.banner-images> :nth-child(2){
+    transform: scale(0.67);
+    left: -3rem;
+    top:-4.6rem;
+} */
+/* .banner-images> :nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+  
+} */
