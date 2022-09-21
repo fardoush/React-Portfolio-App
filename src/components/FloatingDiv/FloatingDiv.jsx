@@ -1,12 +1,12 @@
 import React from 'react';
 import './FloatingDiv.css';
-import {FaReact } from "react-icons/fa";
+import {FaReact,FaCode} from "react-icons/fa";
 
-const FloatingDiv = ({icon,tex1,tex2}) => {
+const FloatingDiv = ({tex1,tex2}) => {
   return (
     <div className='floatingDiv'>
-      {/* <img src="" alt="" /> */}
       <FaReact className='reactIcon'/>
+      <FaCode className='codeIcon'/>
       <span>
         {tex1} 
         <br />

@@ -1,10 +1,7 @@
 import React from 'react';
 import './Home.css';
-import { FaFacebookF,FaInstagram,FaLinkedinIn,FaTwitter,FaGithub } from "react-icons/fa";
+import { FaFacebookF,FaInstagram,FaLinkedinIn,FaTwitter,FaGithub ,FaReact,FaCode} from "react-icons/fa";
 import bannerImage from '../../images/banner1.png';
-import Shape1 from '../../images/shape1.png';
-import Shape2 from '../../images/shape2.png';
-
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 
 
@@ -39,13 +36,20 @@ const Home = () => {
       </div>
       </div>
       <div className="banner-images">
-      <span className='shape1'></span>
-      {/* <img src={Shape1} alt="" />
-      <img src={Shape2} alt="" /> */}
+      {/* <div className='shape1'></div> */}
     <div className="banner-img">
     <img src={bannerImage} alt="" />
     </div>
-    {/* <FloatingDiv  tex1='Web' tex2='Developer'/> */}
+    <div className="react-div">
+
+    <FloatingDiv  tex1='React' tex2='Developer'/>
+    </div>
+    <div className='frontendDiv'>
+    
+    <FloatingDiv  tex1='Front End' tex2='Developer'/>
+    </div>
+    <div className="banner-blur1"> </div>
+    <div className="banner-blur2"> </div>
       </div>
     </div>
   )

@@ -7,15 +7,42 @@
     align-items: center;
     padding: 0px 28px 0px 0px;
     height: 4.5rem;
+    
 
 }
 
+
+.react-div{
+    position: absolute;
+    content: "";
+    top:-150px;
+    left:68%;
+}
+
+.frontendDiv{
+    position: absolute;
+    content: "";
+    bottom:-180px;
+    left:9%;
+}
+
+.react-div .codeIcon{
+    display: none;
+}
+.frontendDiv .reactIcon{
+    display: none;
+}
 .floatingDiv .reactIcon{
     transform: scale(0.4);
     font-size: 100px;
     color: #61DBFB;
 }
 
+.floatingDiv .codeIcon{
+    transform: scale(0.4);
+    font-size: 100px;
+    color: #1c0452;
+}
 .floatingDiv>span{
     font-size: 16px;
     font-family: sans-serif;
