@@ -5,6 +5,7 @@ import Services from './components/Services/Services';
 
 import './App.css';
 import Counter from './components/Counter/Counter';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home/>
       <Services/>
       <Counter/>
+      <Blog/>
     </div>
   )
 }
