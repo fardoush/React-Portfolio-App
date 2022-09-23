@@ -2,7 +2,7 @@
     padding: 0.5rem 3.5rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
     height: 90vh;
     margin-top: 9rem;
@@ -32,6 +32,27 @@
     margin-bottom:2rem;
 }
 
+
+.services-main-content-inner{
+    position: relative;
+}
+/* .services-main-content-inner>*{
+    position: absolute;
+
+} */
+/* .serviceCardInner{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+} */
+.serviceCardInner{
+    position: relative;
+}
+.serviceCardInner .card-inner{
+    
+position: relative;
+}
 .services-blur1{
     position: absolute;
     content:"";
@@ -41,7 +62,21 @@
     border-radius: 50%;
     background: #c1f5ff;
     z-index: -15;
+    bottom:-50%;
+    left:20%;
+    filter: blur(72px);
+}
+
+.services-blur2{
+    position: absolute;
+    content:"";
+    /* width: 20rem; */
+    width: 20rem;
+    height: 15rem;
+    border-radius: 50%;
+   background: #edd0ff;;
+    z-index: -15;
     bottom: -18%;
-    left:0%;
+    right:0%;
     filter: blur(72px);
 }
